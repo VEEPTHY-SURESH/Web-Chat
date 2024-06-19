@@ -8,13 +8,13 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
     cors: {
-        origin: "https://coversation.netlify.app/",
+        origin: "origin url",
         methods: ["GET", "POST"]
     }
 });
 
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = 'mongodb+srv://veepthyofficial:44oM9vz81n2n4QVE@cluster1.vmefaip.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1';
+const MONGO_URI = 'your database url';
 
 mongoose.connect(MONGO_URI, {
     useNewUrlParser: true,
