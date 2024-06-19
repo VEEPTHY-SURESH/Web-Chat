@@ -14,7 +14,7 @@ const io = socketIo(server, {
 });
 
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = 'mongodb://localhost:27017/resolvai';
+const MONGO_URI = 'mongodb+srv://veepthyofficial:44oM9vz81n2n4QVE@cluster1.vmefaip.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1';
 
 mongoose.connect(MONGO_URI, {
     useNewUrlParser: true,
