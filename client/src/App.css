@@ -1,0 +1,11 @@
+.App{
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(to right, black, rgb(73, 25, 73),rgba(167, 16, 222, 0.984))
+}
+h1{
+  color: white;
+}
+.chat-box{
+  margin: 0 auto;
+}

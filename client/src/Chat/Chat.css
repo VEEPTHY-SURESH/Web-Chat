@@ -1,0 +1,66 @@
+
+#message-container {
+    height: 540px;
+    width: 50%;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    margin:  0 auto;
+    background: linear-gradient(to left,rgb(238, 215, 83),rgb(231, 187, 104),white);
+  }
+  .message{
+    background: linear-gradient(to right, white, rgb(151, 239, 151),rgb(116, 241, 116),rgb(71, 241, 71));
+    margin: 5px;
+    border: 1px solid green;
+    border-radius: 5px;
+  }
+  p{
+    margin: 0 5px;
+    text-align: left;
+  }
+  .name{
+    font-weight: bold;
+    font-size: 10px;
+    margin-bottom: 4px;
+  }
+  .text{
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .date{
+    font-size: 10px;
+    text-align: right;
+  }
+
+  input {
+    width: calc(50.5% - 110px);
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  button {
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+  }
+
+  @media (max-width:500px) {
+    #message-container{
+      width: 90%;
+      height: 500px;
+    }
+    input{
+      width: 78%;
+      margin: 5px 0;
+    }
+    button{
+      width: 50px;
+    }
+  }
